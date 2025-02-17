@@ -13,7 +13,7 @@ const ProgreassBar = ({ timer }) => {
     }, []);
     return (
         <>
-            <div><h5>If you don't want to <b>Delete</b> then press No button other wise it will deleted in {remainingTime} MS</h5></div>
+            <div><h5>If you don't want to <b>Delete</b> then press No button other wise it will deleted in {remainingTime} MS per second</h5></div>
             <progress value={remainingTime} max={timer} style={{ width: '100%' }} />
         </>
     )
